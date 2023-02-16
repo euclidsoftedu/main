@@ -1113,6 +1113,8 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(255, 255, 255, 0.75);
+  height: 220px;
+  width: 380px;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1124,12 +1126,15 @@ section {
   top: 30px;
   bottom: 30px;
   transition: all ease-in-out 0.3s;
+
   z-index: 2;
   opacity: 0;
 }
 
 .portfolio .portfolio-wrap img {
   transition: 1s;
+  height: 220px;
+  width: 350px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
@@ -1146,6 +1151,8 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 220px;
+  width: 350px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info::before {
@@ -1166,7 +1173,7 @@ section {
   display: block;
   content: "";
   width: 48px;
-  height: 48px;
+  height: 90px;
   position: absolute;
   bottom: 35px;
   right: 35px;
@@ -1499,13 +1506,13 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients .clients-slider .swiper-slide img {
-  opacity: 0.5;
-  transition: 0.3s;
+  /* opacity: 0.5; */
+  transition: 1s;
 }
 
-.clients .clients-slider .swiper-slide img:hover {
+/* .clients .clients-slider .swiper-slide img:hover {
   opacity: 1;
-}
+} */
 
 .clients .clients-slider .swiper-pagination {
   margin-top: 20px;
